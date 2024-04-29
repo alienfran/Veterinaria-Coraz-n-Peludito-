@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    background: url("https://cdn.pixabay.com/photo/2023/10/25/09/54/bee-8339991_640.jpg");
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;   
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.btn:hover {
+    background-color: #0056b3
+}
+
+section {
+    padding: 50px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.caracteristica {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.caracteristica h3 {
+    font-size: 1.5em;
+}
+
+.testimonio {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
